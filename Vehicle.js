@@ -74,11 +74,10 @@ driver_array.push(driver2)
 let driver3 = new Driver(789,'Shahad','22-10-1998',9365390)
 driver_array.push(driver3)
 
- let Pilot_array = Array()
+ 
  let Pilot1 = new Pilot(1011,'Hanan','20-03-1989', 0340245)
- Pilot_array.push(Pilot1)
  let Pilot2 = new Pilot(1213,'Fahad','15-11-1978',5495240)
-  Pilot_array.push(Pilot2)
+  
 
 
 let Reservation_Array = new Array ()
