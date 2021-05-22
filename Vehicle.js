@@ -62,7 +62,7 @@ class Vehicle {
 
 // 2 object for plane 
   let Plane1 = new Plane(901,'A310','Airbus SE','WideBody')
-  let Plane2 = new Plane(1012,'Jumbo','Boeing Commercial Airplanes','cargo')// 
+  let Plane2 = new Plane(1012,'Boeing 707','Boeing Commercial Airplanes','WideBody')// 
 
   
 
