@@ -96,20 +96,21 @@ let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     let car=0
     let driver=0
     
-    for (let i in driver_array)
+    driver_array.forEach(function(curruntValue,index,array)
       {
-        if (driver_array[i].Employee_Id==employee_id)
+        if (curruntValue.Employee_Id==employee_id)
         {
           driver=1
         }
-      }
-    for (let j in Car_Array )
+        
+      })
+    Car_Array.forEach (function(curruntValue,index,array )
       {
-        if (Car_Array[j].Vehicle_Id==vehicle_id)
+        if (curruntValue.Vehicle_Id==vehicle_id)
         {
           car=1
         }
-      }
+      })
     if (car==1 && driver==1)
     {
       console.log('A vehicle type is a Car that matches the driver')
